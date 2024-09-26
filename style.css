@@ -1,0 +1,24 @@
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block; 
+}
+
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 185px;
+    background-color: #3f0dca;
+    color: aliceblue;
+    display: flex;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(149, 62, 248);
+    color: aliceblue;
+}

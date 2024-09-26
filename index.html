@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=EB+Garamond:wght@400;800&display=swap" rel="stylesheet">
+    <title>Ciclo de Um Jogador</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você está sentado no sofá, com o controle na mão e a cabeça cheia de opções. Na tela inicial, a biblioteca de jogos parece infinita. Mas qual será a escolha perfeita para esta tarde de jogos? Suas decisões agora determinarão qual caminho seguir. Preparado? Vamos lá!</p>
+            <button class="btn-proximo" data-proxima="1">Começar a escolher o jogo!</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Agora que você está decidido a jogar, a primeira grande escolha surge: "Que tipo de jogo estou com vontade de jogar?". Você se pergunta se está no clima de ação frenética ou se prefere algo mais calmo, que exija mais estratégia e raciocínio.</p>
+            <button class="btn-proximo" data-proxima="2">Ação, quero algo rápido e intenso!</button>
+            <button class="btn-proximo" data-proxima="3">Estratégia, prefiro algo que me faça pensar!</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você decidiu que ação é o que você quer. Agora, precisa afunilar ainda mais sua escolha. Que tipo de ação você prefere?</p>
+            <button class="btn-proximo" data-proxima="4">Jogos de Tiro, quero algo que coloque minhas habilidades de mira à prova!</button>
+            <button class="btn-proximo" data-proxima="5">Aventura, prefiro algo que me envolva em uma narrativa épica!</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você optou por um jogo de estratégia. Agora, que tipo de estratégia você gostaria de experimentar?</p>
+            <button class="btn-proximo" data-proxima="6">Jogo de Tabuleiro, onde posso jogar com amigos!</button>
+            <button class="btn-proximo" data-proxima="7">Estratégia em Tempo Real, onde a ação é rápida e dinâmica!</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você escolheu um jogo de tiro! Prepare-se para batalhas intensas. Qual jogo de tiro você gostaria de jogar?</p>
+            <button class="btn-proximo" data-proxima="8">Battle Royale, quero competir com outros jogadores!</button>
+            <button class="btn-proximo" data-proxima="9">Tiro em Primeira Pessoa, um clássico para testar minhas habilidades!</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você escolheu um jogo de aventura! Prepare-se para explorar mundos novos. Que tipo de aventura você quer?</p>
+            <button class="btn-proximo" data-proxima="10">Aventura em Mundo Aberto, quero explorar livremente!</button>
+            <button class="btn-proximo" data-proxima="11">Aventura Linear, quero uma história bem definida!</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você optou por um jogo de tabuleiro! Prepare-se para jogar com seus amigos. Que jogo você vai escolher?</p>
+            <p><strong>Recomendação:</strong> "Catan" é uma ótima escolha para estratégia e diversão com amigos!</p>
+            <button class="btn-proximo" data-proxima="0">Retornar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você escolheu estratégia em tempo real! Prepare-se para um jogo emocionante! Que jogo você vai jogar?</p>
+            <p><strong>Recomendação:</strong> "StarCraft II" oferece uma jogabilidade dinâmica e competitiva!</p>
+            <button class="btn-proximo" data-proxima="0">Retornar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você escolheu um Battle Royale! Prepare-se para a competição! Que jogo você vai jogar?</p>
+            <p><strong>Recomendação:</strong> "Fortnite" é um dos melhores jogos do gênero!</p>
+            <button class="btn-proximo" data-proxima="0">Retornar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você optou por um Tiro em Primeira Pessoa! Prepare-se para a ação! Que jogo você vai jogar?</p>
+            <p><strong>Recomendação:</strong> "Call of Duty: Modern Warfare" é uma escolha incrível!</p>
+            <button class="btn-proximo" data-proxima="0">Retornar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você escolheu uma aventura em mundo aberto! Prepare-se para explorar! Que jogo você vai jogar?</p>
+            <p><strong>Recomendação:</strong> "The Legend of Zelda: Breath of the Wild" é perfeito para isso!</p>
+            <button class="btn-proximo" data-proxima="0">Retornar ao início</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você optou por uma aventura linear! Prepare-se para uma grande história! Que jogo você vai jogar?</p>
+            <p><strong>Recomendação:</strong> "The Last of Us" oferece uma narrativa emocionante!</p>
+            <button class="btn-proximo" data-proxima="0">Retornar ao início</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
